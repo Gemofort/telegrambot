@@ -1,7 +1,8 @@
 'use strict';
 
 const Telegram = require('telegram-node-bot');
-const tg = new Telegram.Telegram('728817190:AAHqeir1t16C-MdWj2tpimhwa3fXAe6cP3I', {
+const BOT_TOKEN = '728817190:AAHqeir1t16C-MdWj2tpimhwa3fXAe6cP3I';
+const tg = new Telegram.Telegram(BOT_TOKEN, {
     workers: 1
 });
 
